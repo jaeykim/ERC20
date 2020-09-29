@@ -32,8 +32,7 @@ contract ERC20 {
         _name = name;
         _symbol = symbol;
         _decimals = 18;
-        _totalSupply = 1000 * (10 ** _decimals);
-        _balances[msg.sender] = _totalSupply;
+        // TODO: set _totalSupply with _decimals
     }
 
     /**
