@@ -13,7 +13,8 @@ constructor (string memory name, string memory symbol) public {
     _name = name;
     _symbol = symbol;
     _decimals = 18;
-    // TODO: set _totalSupply with _decimals
+    // TODO 1: set _totalSupply with _decimals
+    // TODO 2: mint _totalSupply to the msg.sender
 }
 ```
 - Deploy the contract
