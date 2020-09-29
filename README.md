@@ -8,6 +8,7 @@ ERC20 practice for Blockchain coursework at Seoul National University. Fall, 202
 # TODO
 - Set *_totalSupply* with *_decimals*
 >hint: _totalSupply = x times 10^_decimals
+- Mint *_totalSupply* to the creator (*msg.sender*)
 ```
 constructor (string memory name, string memory symbol) public {
     _name = name;
